@@ -1,0 +1,186 @@
+@import url("//fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
+
+
+body {
+    font-family: 'Baloo Bhaina 2';
+    line-height: 1.8;
+    font-size: 1.8rem;
+    overflow: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #D33F49 ;
+}
+
+li {
+  
+  text-transform: uppercase;
+  font-weight: 10;
+  color: #D33F49 ;
+  
+}
+
+
+#sidebar {
+            size: 13px;
+            font-family: 'Baloo Bhaina 2';
+            line-height: 1.2;
+            font-size: 1.4rem;
+            background-color: transparent ;
+            border-color: transparent ;
+         }
+         
+.shiny-notification {
+             font-family: 'Baloo Bhaina 2';
+             position:fixed;
+             top: calc(0%);
+             left: calc(0%);
+             height: 100%;
+             width: 100%;
+             background-color: #EDECED;
+             border-color: #EDECED;
+             text-align: center;
+             opacity: .91;
+}
+
+.shiny-input-container {
+             border-color: white ;
+             background-color: white ;
+             opacity: .80;
+}
+
+
+.shiny-notification-close {
+        font-family: 'Baloo Bhaina 2';
+        font-size: 30pt !important;
+        top: calc(10%);
+        right: calc(30%);
+}
+
+.control-label {
+            font-family: 'Baloo Bhaina 2';
+            text-transform: uppercase;
+            font-weight: 10;
+            color: #D33F49 ;
+            text-align: center; 
+}
+
+.shiny-output-error-validation {
+             font-family: 'Baloo Bhaina 2';
+             size: 15px;
+             text-transform: uppercase;
+             font-weight: 50;
+             color: #77BA99;
+             text-align: center;
+}
+
+
+a:link {
+             font-family: 'Baloo Bhaina 2';
+             size: 15px;
+             color: #D33F49 ;
+             text-align: center;
+}
+
+a {
+             font-family: 'Baloo Bhaina 2';
+             size: 15px;
+             color: #D33F49 ;
+             text-align: center;
+}
+
+a:hover {
+             font-family: 'Baloo Bhaina 2';
+             size: 15px;
+             color: #77BA99;
+             text-align: center;
+}
+
+div {
+  
+            text-align: center;
+
+}
+             
+.irs-bar {
+    font-family: 'Baloo Bhaina 2';
+    height: 3px !important;
+    border-top: 1px solid #D33F49 !important;
+    border-bottom: 1px solid #D33F49 !important;
+    background: #D33F49 !important;
+                color:#D33F49;
+
+}
+
+.irs-bar-edge {
+        font-family: 'Baloo Bhaina 2';
+        height: 3px !important;
+        border: 1px solid #D33F49 !important;
+        background: #D33F49 !important;
+                    color:#D33F49;
+
+}
+
+.irs-animate-button { 
+        font-family: 'Baloo Bhaina 2';
+        font-size: 20pt !important; 
+        color: #D33F49;
+        
+}
+
+.irs-animate-button-play { 
+        
+        font-family: 'Baloo Bhaina 2';
+        font-size: 20pt !important; 
+        color: #D33F49;
+        
+}
+
+.irs-line {
+        font-family: 'Baloo Bhaina 2';
+        height: 3px !important;
+        color:#D33F49;
+
+}
+
+.irs-single {
+        font-family: 'Baloo Bhaina 2';
+        background: #D33F49 !important;
+                    color:#C9C6C9;
+
+}
+
+.slider-animate-button { 
+        font-family: 'Baloo Bhaina 2';
+        font-size: 15pt !important; 
+        color: #D33F49;
+}
+
+.irs-min, .irs-max, .irs-grid-text, .irs-grid-pol  {
+        font-family: 'Baloo Bhaina 2';
+        visibility:
+        hidden !important;
+}
+
+.irs-slider, .irs-from, .irs-to {
+        height: 4px !important; 
+        width: 4px !important; 
+        background: #D33F49 !important;
+        color: #D33F49 !important;
+
+
+
+
+}
+
+
+.recalculating {
+        overflow: auto;
+        opacity: 1.0;
+        color:#C9C6C9;
+
+}
