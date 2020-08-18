@@ -24,7 +24,8 @@ tsabble <- tsabble %>%
                   "unit",
                   "name"), 
                 sep = ",") %>%
-        dplyr::select(-c(1:3))
+        dplyr::select(-c(1:3)) %>%
+        dplyr::mutate(dplyr::across(dplyr::contains("-Q"), ~ if(is.character(.x)) readr::parse_number(.x) else .x))
 
 ## Tidy (2) ----
 
@@ -32,7 +33,7 @@ tsabble <- tsabble %>%
         tidyr::pivot_longer(-c(name, unit), 
                      names_to = "period", 
                      values_to = "value") %>%
-        dplyr::mutate(period = tsibble::yearquarter(period),
+        dplyr::mutate(period = lubridate::yq(period),
                unit = stringr::str_sub(unit, -3 , -1)) %>%
         tidyr::pivot_wider(
                 names_from = unit,
